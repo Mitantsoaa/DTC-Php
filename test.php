@@ -8,23 +8,10 @@
     // echo $adressePost;
     // echo $telephone;
     // echo $isCapital;
-    $age = 18;
-    echo $age.'taona izy <br>';
-    if($age <= 18){
-        echo "Tsy ampy taona </br>";
-    }
-    
-    if ($age >= 18){
-        echo "Efa ampy taona </br>";
-    }
-    
-    if($age != 12){
-        echo $age."<br>";
-    }
-
-    if($age == 18){
-        echo "Vao ampy taona </ br>";
-    }
+    $age = 12;
+    $taona = 18;
+    echo $age <=> $taona;
+    // azoko amzai
     // table boolean anaty if +github
     // env python
     ?>
