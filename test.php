@@ -11,7 +11,16 @@
     $age = 12;
     $taona = 18;
     echo $age <=> $taona;
-    // azoko amzai
-    // table boolean anaty if +github
-    // env python
+    if ($ville == 'tamatave' || $adressePost > 0){
+        echo 'yeah';
+    }
+    if ($isCapital && $ville){
+        echo 'Eto am tanàna';
+    }
+    if (!$age){
+        echo 'Tsy misy taona';
+    }
+    if ($age == 12 xor $taona >= 18){
+        echo 'Aoeeee';
+    }
     ?>
