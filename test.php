@@ -23,4 +23,7 @@
     if ($age == 12 xor $taona >= 18){
         echo 'Aoeeee';
     }
+    if ($age <=> $taona){
+        echo 'ty zao -1 ny valiny';
+    }
     ?>
