@@ -37,4 +37,12 @@
     for($i=0; $i<= count($tab); $i++){
         echo $tab[$i];
     }
+
+    $assocArray = array(
+      'nom' => 'Mita', 
+      'prenom' => 'tsoa', 
+      'age' => 90, 
+      'estEtudiant' => true
+  );
+  echo $assocArray['nom'].' '.$assocArray['prenom'];
     ?>
