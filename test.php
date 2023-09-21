@@ -27,4 +27,14 @@
     }
     // table boolean anaty if +github
     // env python
+
+    //parcours tableau avec php
+    $tab = array('carotte','poivron','aubergine','chou');
+    foreach($tab as $legume){
+        echo $legume;
+    }
+
+    for($i=0; $i<= count($tab); $i++){
+        echo $tab[$i];
+    }
     ?>
