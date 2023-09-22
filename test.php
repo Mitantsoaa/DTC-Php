@@ -45,4 +45,14 @@
       'estEtudiant' => true
   );
   echo $assocArray['nom'].' '.$assocArray['prenom'];
+
+//   Boucle while
+    $x = 1;
+    while($x <= count($tab)){
+        echo 'Nous sommes au'.$x.' ème boucle';
+    }
+
+
+    // ajouter un valeur dans un tableau
+    array_push($tab,'banane','pomme');
     ?>
