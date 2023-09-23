@@ -43,8 +43,8 @@
       'prenom' => 'tsoa', 
       'age' => 90, 
       'estEtudiant' => true
-  );
-  echo $assocArray['nom'].' '.$assocArray['prenom'];
+    );
+    echo $assocArray['nom'].' '.$assocArray['prenom'];
 
 //   Boucle while
     $x = 1;
@@ -54,5 +54,22 @@
 
 
     // ajouter un valeur dans un tableau
+
     array_push($tab,'banane','pomme');
+    var_dump($tab);
+
+    // au debut du tableau
+
+    array_unshift($tab,'katsaka');
+    var_dump($tab);
+
+    // detele the last elemtn of array
+    array_pop($tab);
+    print_r($tab) ;
+
+    //delete the first element of array
+    array_shift($assocArray);
+    print_r($assocArray);
+
+    
     ?>
