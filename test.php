@@ -9,13 +9,16 @@
     // echo $telephone;
     // echo $isCapital;
     $age = 18;
-    echo $age.'taona izy <br>';
+    echo $age.'taona izy';
+    echo ' </br>';
     if($age <= 18){
         echo "Tsy ampy taona </br>";
+        echo ' </br>';
     }
     
     if ($age >= 18){
-        echo "Efa ampy taona </br>";
+        echo "Efa ampy taona";
+        echo ' </br>';
     }
     
     if($age != 12){
@@ -23,7 +26,8 @@
     }
 
     if($age == 18){
-        echo "Vao ampy taona </ br>";
+        echo "Vao ampy taona";
+        echo ' </br>';
     }
     // table boolean anaty if +github
     // env python
@@ -50,26 +54,39 @@
     $x = 1;
     while($x <= count($tab)){
         echo 'Nous sommes au'.$x.' ème boucle';
+        echo ' </br>';
+        $x++;
     }
 
 
     // ajouter un valeur dans un tableau
-
+    echo 'ajouter valeur à la fin';
     array_push($tab,'banane','pomme');
-    var_dump($tab);
+    print_r($tab);
 
     // au debut du tableau
-
+    echo 'ajouter au debut';
     array_unshift($tab,'katsaka');
-    var_dump($tab);
+    print_r($tab);
 
     // detele the last elemtn of array
+    echo 'supprimer à la fin';
     array_pop($tab);
     print_r($tab) ;
 
     //delete the first element of array
+    echo 'supprimer au debut';
     array_shift($assocArray);
     print_r($assocArray);
 
-    
+    // ajouter in specific position
+    echo 'remplacer un element';
+    array_splice($tab,1,1,'akondro');
+    print_r($tab);
+
+    // get a part of array
+    echo 'afficher une part du tableau';
+    print_r(array_slice($tab,0,2));
+
+
     ?>
